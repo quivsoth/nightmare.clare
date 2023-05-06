@@ -180,8 +180,8 @@
 
 @font-face {
     font-family: 'splendid_66bold';
-    src: url('splendidb-webfont.woff2') format('woff2'),
-         url('splendidb-webfont.woff') format('woff');
+    src: url('/fonts/splendidb-webfont.woff2') format('woff2'),
+         url('/fonts/splendidb-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -189,8 +189,8 @@
 
 @font-face {
     font-family: 'splendid_66regular';
-    src: url('splendidi-webfont.woff2') format('woff2'),
-         url('splendidi-webfont.woff') format('woff');
+    src: url('/fonts/splendidi-webfont.woff2') format('woff2'),
+         url('/fonts/splendidi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -198,8 +198,8 @@
 
 @font-face {
     font-family: 'splendid_66regular';
-    src: url('splendidn-webfont.woff2') format('woff2'),
-         url('splendidn-webfont.woff') format('woff');
+    src: url('/fonts/splendidn-webfont.woff2') format('woff2'),
+         url('/fonts/splendidn-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

@@ -34,7 +34,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    font-family: 'Apparel';
+    font-family: 'splendid_66regular';
 }
 
 h1 {
@@ -44,4 +44,21 @@ h1 {
 .logoImg {
   height: 30em;
   width: auto;
+}
+
+p {
+  margin: 2rem;
+  font-size: larger;
+}
+
+h1{
+  padding: 2rem;
+}
+h2{
+  padding: 2rem;
+  font-size:x-large;
+}
+
+blockquote{
+  padding-left: 3rem;
 }

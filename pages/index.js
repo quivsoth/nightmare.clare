@@ -1,8 +1,6 @@
 // root folder : /
 import Image from 'next/image';
-
 function root() {
-    
     return (
         <div>
             <Image
@@ -13,10 +11,56 @@ function root() {
                 className='logoImg'
             />
             {/* <Image src="/logo.png"  height={100}></Image> */}
-            <h1 >Coming soon...</h1> 
+            <h1>Nightmare Clare.</h1>
+            <h2>A brief case, of distortion...</h2>
+
+            <blockquote><em>
+                Clare will try to kill you,<br/>
+                Hold your pulse to still you,<br/>
+                Soothing words, in pleasured flight,<br/>
+                No remorse, yet no delight.</em>
+            </blockquote>
+            <p> It was a damp, humid night when Molly was ambling through the woods; relieved to be far away from the complexities of city life. It didn't take long for her to adjust to the lack of light, her flashlight slowly unfolding the underbrush like layers with every footstep she took. "I should have stayed on the main trail!" she said cautiously; but shaking off her doubt proceeded to trudge further along.</p>
+            <p>"The lake must be nearby?" she said after a while - feeling short of breath. The forest was starting to feel banal and she wanted to go for a swim to wash off the sweat from her body.</p>
+            <p>In the distance she saw something glimmering. 'It couldn't be the surface of the lake reflecting the moonlight could it?' she quipped. It was too small for that - but the light source had a very unusual gleam about it. It was beaming gold and pink! "How unusual." She said to herself wondering if she should turn and leave.</p>
+            
+            
+            <p>Yet she couldn't. Her curiousity got the better of her and as she approached closer, she noticed that the source of light was in a very small concentrated space. It wasn't a campfire, nor was it anything electrical. “Hello?”, she said softly, expecting someone to respond. Silence. An onset of uneasiness swept over Molly as her brain was telling her the best thing to do was to leave. However, her inquisitive nature stopped her from doing that, in fact, quite the opposite, she found herself compelled by the object and proceeded to slowly walk towards it….</p>
+            <p>As she got near to it she could see it was a suitcase! But it wasn’t any old suitcase. This suitcase was wavy. Like the ocean - the sides were curved, perpendicular to each other but wavy all the same. As if on cue, the glowing light that was emitting seemed to fade and just like that, there she was, her and a suitcase in the middle of nowhere. “I wonder what’s in it?”, she said with an itching temptation to open it. </p>
+            <Image
+                src="/briefcase.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className='logoImg'
+            />
+            <p>She hesitated; again, she looked around, “this must belong to someone, but who would leave it here?” she was bewildered. It was dead silent. Not even the crickets were chirping. It felt like time had stopped. After a few minutes of staring at the suitcase, she once again approached it. It was such a beautiful suitcase. She could resist no longer. She inspected the locks, it was a number lock (3 digits) - one on each side. The numbers were preset to 5 7 4 1 7 3; her instinct was not to touch them and see if it would open. As she presses on the latch, a very pleasant click sound snaps the lock upwards, and voila! Suitcase open. </p>
+            <p>Molly slowly opens the suitcase, expecting to find something, anything. As she opens the suitcase, she hears a strange sound, almost like someone exhaling after holding their breath for a long time. With the exhale, she also seems to hear one word. “Clare”. It was a long exhale but she could definitely hear the name being whispered. “What a strange sensation”, she muses, thinking its all in her head. As she opens the suitcase, she looks to see what’s inside……</p>
+            <p>Empty.</p>
+            <p>It made no sense. Frowning to herself, she tried to search under the lining, to see if there were any hidden compartments or secret pouches. Nothing. “Why would someone leave this?” she said in a disappointed tone. Her mind was expecting hidden treasures, or conspiracy documents, or anything of value that such a lovely suitcase would hold. Not nothing. Curling her lip disappointed she shut the suitcase. Wondering if she should bring it with her or leave it. She decided on the latter - after all, someone may have left it there. Based on its condition, it did not look like it had been outside for too long. In fact, it looked brand new. </p>
+            <p>She had been in the woods for a lot longer than planned and decided the best thing to do would be to walk home. “Well that was anticlimactic!”, she says and she starts to walk away. </p>
+            <p>Suddenly.. </p>
+            <p>As Molly takes a few steps, the suitcase snaps open with an incredible speed. Fast, almost growling. Startled, she gives a small gasp of shock and turns around to see the suitcase open. </p>
+            <p>“What the heck?” She whispers to herself; frozen by the fear of what happened. After pausing for a few moments, nothing seemed to happen. The suitcase is open. Cautiously she walks back to it, looks around, deadly silent again. Molly inspects the suitcase. Maybe she didn’t shut it properly, she tells herself and shuts the suitcase again; this time making sure it is fastened correctly. Molly’s stomach is gripped with fear. Something isn’t right. She decides she has to leave now.</p>
+            <p>When she is satisfied it is shut, she starts to walk away keeping her eyes on the suitcase… </p>
+            <p>After a few steps the suitcase, snaps open again, this time the growl she thought she heard the first time, she definitely heard this time. Screaming she turns to run…</p>
+            <p>She is paralyzed. She cannot run. She cannot move. Her entire body is motionless. Histeria is completely with her now. She is unable to process what is going on. She cannot move.</p>
+            <p>But she knows…</p>
+            <p>She knows behind her the suitcase is pulling her back. </p>
+            <p>“OH MY GOD” she is trying, hoping that something, hoping that anything will release her. Molly starts to notice that everything is suddenly looking a lot bigger. The trees! They’re 6x the size they were before. </p>
+            <p>What Molly fails to realize is that everything is not getting bigger. She is getting smaller. Smaller, and smaller until she is small enough to fit into the suitcase.</p>
+            <p>Try as she might, she cannot fight this unseen force, slowly pulling her into the suitcase; and before she knows it, she sees the lid over her head, like she is being pulled into a cave, a vortex; the open daylight is gone and as she looks up she can see gaping jaws begin to such.</p>
+            <p>Molly is screaming with horror; and nobody hears. Slowly the suitcase shuts, with that satisfying click. </p>
+            <p>Inside the suitcase Molly hears the one of the most beautiful sweet voice she’s ever heard. “Hi, my names Clare” the voice says, luring, beckoning to her… </p>
+            <p>….”and i love telling stories”.</p>
+            <Image
+                src="/scary2.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className='logoImg'
+            />
         </div>
     )
 }
-
-
 export default root;
