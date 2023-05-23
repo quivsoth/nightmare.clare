@@ -1,19 +1,34 @@
 {
   "name": "nightmare.clare",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Legendary Computer Game",
+  "main": "app.js",
   "scripts": {
-    "dev": "next dev -H 192.168.1.27 -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quivsoth/nightmare.clare.git"
+  },
+  "keywords": [
+    "computer",
+    "game",
+    "nightmare.clare"
+  ],
+  "author": "Phillip Knezevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quivsoth/nightmare.clare/issues"
+  },
+  "homepage": "https://github.com/quivsoth/nightmare.clare#readme",
   "dependencies": {
-    "autoprefixer": "10.4.14",
-    "next": "13.3.4",
-    "postcss": "8.4.23",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "bulma-start": "^0.0.5",
+    "koa": "^2.14.2",
+    "koa-ejs": "^4.3.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "nodemon": "^2.0.22"
   }
 }
