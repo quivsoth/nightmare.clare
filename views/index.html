@@ -1,4 +1,4 @@
-<section class="hero is-fullheight">
+<!-- <section class="hero is-fullheight">
     <div class="hero-body has-text-centered">
       <div class="container">
         <div class="box">
@@ -7,6 +7,30 @@
       </div>
     </div>
   </section>
+ -->
 
 
+
+<div id="animation">
+  <img src="/Clare1.png" style="height: 6em" />
+  <img src="/Clare2.png" style="height: 6em" />
+  <img src="/Clare3.png" style="height: 6em" />
+  <img src="/Clare4.png" style="height: 6em" />
+  <img src="/Clare5.png" style="height: 6em" />
+  <img src="/Clare6.png" style="height: 6em" />
+  
+</div>
+
+
+<script>
+
+  const frames = document.getElementById("animation").children;
+  const frameCount = frames.length;
+  let i = 0;
+  setInterval(function () { 
+      frames[i % frameCount].style.display = "none";
+      frames[++i % frameCount].style.display = "block";
+  }, 250);
+
+</script>
   
