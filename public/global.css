@@ -13,3 +13,11 @@ h1 {
 .box {
     background-color: black;
 }
+
+
+#animation img {
+    display: none;
+}
+#animation img:first-child {
+    display: block;
+}

@@ -33,6 +33,11 @@ router.get('/', async ctx => {
     await ctx.render('index', {showLayout: false});
 });
 
+
+router.get('/ballet', async ctx => {
+    await ctx.render('ballet', {showLayout: false});
+});
+
 router.get('/story', async ctx => {
     await ctx.render('story', {showLayout: true});
 });
