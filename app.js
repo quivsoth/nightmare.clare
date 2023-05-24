@@ -29,8 +29,6 @@ render(app, {
 
 //--------------------------------------------------
 //TODO Move this to a diff class
-
-
 router.get('/', async ctx => {
     await ctx.render('index', {showLayout: false});
 });
