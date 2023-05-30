@@ -31,7 +31,6 @@ render(app, {
 //TODO Move this to a diff class
 router.get('/', async ctx => {
     await ctx.render('index', {showLayout: false});
-    
 });
 
 
@@ -41,6 +40,10 @@ router.get('/ballet', async ctx => {
 
 router.get('/story', async ctx => {
     await ctx.render('story', {showLayout: true});
+});
+
+router.get('/p90', async ctx => {
+    await ctx.render('p90', {showLayout: false});
 });
 //--------------------------------------------------
 
