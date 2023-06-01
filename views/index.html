@@ -10,15 +10,41 @@
  -->
 
 
-<!-- 
+ <p>250 FPS</p>
 <div id="animation">
-  <img src="/Clare1.png" style="height: 6em" />
-  <img src="/Clare2.png" style="height: 6em" />
-  <img src="/Clare3.png" style="height: 6em" />
-  <img src="/Clare4.png" style="height: 6em" />
-  <img src="/Clare5.png" style="height: 6em" />
-  <img src="/Clare6.png" style="height: 6em" />
-  
+  <img src="/walking1.png" style="height: 6em" />
+  <img src="/walking2.png" style="height: 6em" />
+  <img src="/walking3.png" style="height: 6em" />
+  <img src="/walking4.png" style="height: 6em" />
+  <img src="/walking5.png" style="height: 6em" />
+</div>
+
+<br><br>
+<p>200 FPS</p>
+<div id="animation2">
+  <img src="/walking1.png" style="height: 6em" />
+  <img src="/walking2.png" style="height: 6em" />
+  <img src="/walking3.png" style="height: 6em" />
+  <img src="/walking4.png" style="height: 6em" />
+  <img src="/walking5.png" style="height: 6em" />
+</div>
+<br><br>
+<p>100 FPS</p>
+<div id="animation3">
+  <img src="/walking1.png" style="height: 6em" />
+  <img src="/walking2.png" style="height: 6em" />
+  <img src="/walking3.png" style="height: 6em" />
+  <img src="/walking4.png" style="height: 6em" />
+  <img src="/walking5.png" style="height: 6em" />
+</div>
+<br><br>
+<p>50 FPS</p>
+<div id="animation4">
+  <img src="/walking1.png" style="height: 6em" />
+  <img src="/walking2.png" style="height: 6em" />
+  <img src="/walking3.png" style="height: 6em" />
+  <img src="/walking4.png" style="height: 6em" />
+  <img src="/walking5.png" style="height: 6em" />
 </div>
 
 
@@ -32,5 +58,29 @@
       frames[++i % frameCount].style.display = "block";
   }, 250);
 
+  const frames2 = document.getElementById("animation2").children;
+  const frameCount2 = frames2.length;
+  let i2 = 0;
+  setInterval(function () { 
+      frames2[i2 % frameCount].style.display = "none";
+      frames2[++i2 % frameCount].style.display = "block";
+  }, 200);
+
+  const frames3 = document.getElementById("animation3").children;
+  const frameCount3 = frames3.length;
+  let i3 = 0;
+  setInterval(function () { 
+      frames3[i3 % frameCount].style.display = "none";
+      frames3[++i3 % frameCount].style.display = "block";
+  }, 150);
+
+
+  const frames4 = document.getElementById("animation4").children;
+  const frameCount4 = frames4.length;
+  let i4 = 0;
+  setInterval(function () { 
+      frames4[i4 % frameCount].style.display = "none";
+      frames4[++i4 % frameCount].style.display = "block";
+  }, 50);
+
 </script>
-   -->
