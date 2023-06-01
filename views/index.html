@@ -12,39 +12,49 @@
 
  <p>250 FPS</p>
 <div id="animation">
-  <img src="/walking1.png" style="height: 6em" />
-  <img src="/walking2.png" style="height: 6em" />
-  <img src="/walking3.png" style="height: 6em" />
-  <img src="/walking4.png" style="height: 6em" />
-  <img src="/walking5.png" style="height: 6em" />
+  <img src="/walking1.png" style="height: 10em" />
+  <img src="/walking2.png" style="height: 10em" />
+  <img src="/walking3.png" style="height: 10em" />
+  <img src="/walking4.png" style="height: 10em" />
+  <img src="/walking5.png" style="height: 10em" />
 </div>
 
 <br><br>
 <p>200 FPS</p>
 <div id="animation2">
-  <img src="/walking1.png" style="height: 6em" />
-  <img src="/walking2.png" style="height: 6em" />
-  <img src="/walking3.png" style="height: 6em" />
-  <img src="/walking4.png" style="height: 6em" />
-  <img src="/walking5.png" style="height: 6em" />
+  <img src="/walking1.png" style="height: 10em" />
+  <img src="/walking2.png" style="height: 10em" />
+  <img src="/walking3.png" style="height: 10em" />
+  <img src="/walking4.png" style="height: 10em" />
+  <img src="/walking5.png" style="height: 10em" />
 </div>
 <br><br>
 <p>100 FPS</p>
 <div id="animation3">
-  <img src="/walking1.png" style="height: 6em" />
-  <img src="/walking2.png" style="height: 6em" />
-  <img src="/walking3.png" style="height: 6em" />
-  <img src="/walking4.png" style="height: 6em" />
-  <img src="/walking5.png" style="height: 6em" />
+  <img src="/walking1.png" style="height: 10em" />
+  <img src="/walking2.png" style="height: 10em" />
+  <img src="/walking3.png" style="height: 10em" />
+  <img src="/walking4.png" style="height: 10em" />
+  <img src="/walking5.png" style="height: 10em" />
 </div>
+<br><br>
+<p>75 FPS</p>
+<div id="animation5">
+  <img src="/walking1.png" style="height: 10em" />
+  <img src="/walking2.png" style="height: 10em" />
+  <img src="/walking3.png" style="height: 10em" />
+  <img src="/walking4.png" style="height: 10em" />
+  <img src="/walking5.png" style="height: 10em" />
+</div>
+
 <br><br>
 <p>50 FPS</p>
 <div id="animation4">
-  <img src="/walking1.png" style="height: 6em" />
-  <img src="/walking2.png" style="height: 6em" />
-  <img src="/walking3.png" style="height: 6em" />
-  <img src="/walking4.png" style="height: 6em" />
-  <img src="/walking5.png" style="height: 6em" />
+  <img src="/walking1.png" style="height: 10em" />
+  <img src="/walking2.png" style="height: 10em" />
+  <img src="/walking3.png" style="height: 10em" />
+  <img src="/walking4.png" style="height: 10em" />
+  <img src="/walking5.png" style="height: 10em" />
 </div>
 
 
@@ -73,6 +83,15 @@
       frames3[i3 % frameCount].style.display = "none";
       frames3[++i3 % frameCount].style.display = "block";
   }, 150);
+
+  const frames5 = document.getElementById("animation5").children;
+  const frameCount5 = frames5.length;
+  let i5 = 0;
+  setInterval(function () { 
+      frames5[i5 % frameCount].style.display = "none";
+      frames5[++i5 % frameCount].style.display = "block";
+  }, 75);
+
 
 
   const frames4 = document.getElementById("animation4").children;
